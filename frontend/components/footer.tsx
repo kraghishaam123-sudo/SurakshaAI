@@ -1,4 +1,4 @@
-import { Shield, Github, Linkedin } from "lucide-react"
+import { Shield } from "lucide-react"
 
 const quickLinks = [
   { label: "How It Works", href: "/how-it-works#how-it-works" },
@@ -50,25 +50,6 @@ export function Footer() {
               ))}
             </ul>
 
-            <h4 className="mb-3 text-sm font-semibold text-foreground">Connect</h4>
-            <div className="flex flex-wrap gap-3">
-              <a
-                href="https://www.linkedin.com/in/anuroop-phukan/"
-                target="_blank"
-                rel="noreferrer"
-                className="inline-flex items-center gap-2 rounded-lg border border-border bg-card px-3 py-2 text-sm text-muted-foreground transition-colors hover:text-foreground"
-              >
-                <Linkedin className="h-4 w-4" /> LinkedIn
-              </a>
-              <a
-                href="https://github.com/Anuroop-cloud/phishbait"
-                target="_blank"
-                rel="noreferrer"
-                className="inline-flex items-center gap-2 rounded-lg border border-border bg-card px-3 py-2 text-sm text-muted-foreground transition-colors hover:text-foreground"
-              >
-                <Github className="h-4 w-4" /> GitHub
-              </a>
-            </div>
           </div>
         </div>
 
@@ -78,7 +59,7 @@ export function Footer() {
             <p className="text-sm text-muted-foreground">
               &copy; {new Date().getFullYear()} SurakshaAI. All rights reserved.
             </p>
-            <p className="text-xs text-muted-foreground">Built with care during a 36-hour hackathon.</p>
+            <p className="text-xs text-muted-foreground">Artificial Intelligence Course Project</p>
           </div>
         </div>
       </div>
